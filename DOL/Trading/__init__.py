@@ -1,0 +1,19 @@
+# Dimensions tables
+from .Dimensions.Dimension_Date import Dimension_Date
+from .Dimensions.Dimension_Time import Dimension_Time
+from .Dimensions.Dimension_Granularity import Dimension_Granularity
+from .Dimensions.Dimension_InstrumentType import Dimension_InstrumentType
+from .Dimensions.Dimension_IndicatorCategory import Dimension_IndicatorCategory
+from .Dimensions.Dimension_IndicatorType import Dimension_IndicatorType
+from .Dimensions.Dimension_LineType import Dimension_LineType
+from .Dimensions.Dimension_TargetDataType import Dimension_TargetDataType
+from .Dimensions.Dimension_Instruments import Dimension_Instruments
+from .Dimensions.Dimension_Indicators import Dimension_Indicators
+from .Dimensions.Dimension_PriceType import Dimension_PriceType
+
+# Facts tables
+from .Facts.Facts_CleanInstruments import Facts_CleanInstrument
+from .Facts.Facts_Instruments import Facts_Instruments
+from .Facts.Facts_NormalisedFeatures import Facts_NormalisedFeatures
+from .Facts.Facts_Indicators import Facts_Indicators
+
